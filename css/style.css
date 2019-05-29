@@ -1,0 +1,106 @@
+body
+{
+	height: 100vh;
+	background-color: rgb(240,240,240);
+}
+
+.sign > div
+{
+	padding: 5%;
+	font-size: 2vw;
+}
+
+#message-alert /* Message d'erreur de connexion / inscription */
+{
+	padding: 3%;
+}
+
+/* Navigation messagerie*/
+
+#navig
+{
+	height: 8%;
+	background-color: rgb(40,40,40);
+	color: white;
+}
+#navig > div
+{
+	height: 100%;
+	font-size: 1.4em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#navig p
+{
+	padding: 0;
+	margin: 0;
+}
+
+/* Affichage général message */
+#control-message
+{
+	height: 85%;
+}
+
+/* Nom du chat */
+#chat-name
+{
+	height: 10%;
+	padding-top: 2%;
+}
+
+/* Affichage des message*/
+
+#messagerie
+{
+	overflow: auto;
+	min-height: 75%;
+	max-height: 80%;
+	margin-bottom: 5%;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+/* Ecrire un message */
+#type-message textarea
+{
+	width: 100%;
+	margin-right: 2%;
+	padding: 1%;
+	resize: none;
+	border-radius: 8px;
+}
+
+/* Les message à l'affiche */
+.msgShow
+{
+	display: inline-block;
+	font-size: 0.9em;
+	border: 1px solid rgb(40,40,40);
+	border-radius: 10px;
+	padding: 1%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	min-width: 30%;
+	max-width: 80%;
+	background-color: rgb(100,140,240); /* message envoyés */
+	color: white;
+	float: left;
+	clear: both;
+}
+
+.msgInfo
+{
+	font-size: 0.7em;
+	font-style: italic; 
+}
+
+.hisMsg
+{
+	background-color: rgb(230,120,230);
+	min-width: 0;
+	float: right;
+	clear: both;
+}
+
